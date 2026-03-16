@@ -3,27 +3,35 @@
 
 <head>
     <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <h1>Travel Recommendation Website</h1>
 
-  <nav>
+<nav>
 
-   <a href="travel_recommendation.html">Home</a>
-   <a href="about.html">About Us</a>
-   <a href="contact.html">Contact Us</a>
+<div class="nav-left">
 
-  <input type="text" id="searchInput" placeholder="Search destination">
+<a href="travel_recommendation.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact Us</a>
 
-  <button onclick="searchRecommendation()">Search</button>
+</div>
 
-  <button onclick="clearResults()">Reset</button>
+<div class="nav-right">
 
- </nav>
+<input type="text" id="searchInput" placeholder="Search destination" onkeypress="handleKeyPress(event)">
 
-<h1>Travel Recommendation Website</h1>
+<button onclick="searchRecommendation()">Search</button>
+
+<button onclick="clearResults()">Reset</button>
+
+</div>
+
+</nav>
+
 
 <div id="results"></div>
 
