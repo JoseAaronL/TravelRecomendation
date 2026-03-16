@@ -135,3 +135,22 @@ h1 {
   background:#005edb;
 
 }
+.intro{
+  background: rgba(0,0,0,0.55);
+  color: white;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.intro h2{
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.intro p{
+  font-size: 16px;
+  line-height: 1.5;
+}
